@@ -1,0 +1,618 @@
+$font-family: "Roboto", sans-serif;
+
+.modal-content {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    .solid {
+        stroke-width: 1px;
+        stroke: var(--Neutral-01, #e7e8e9);
+        margin: 0;
+    }
+}
+
+.modal-header {
+    border-bottom: none;
+    padding: 10px;
+    color: var(--Primary, #3d3d3d);
+    text-align: center;
+    font-feature-settings: "dlig" on, "liga" off, "clig" off;
+    font-family: $font-family;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    .logout {
+        h5 {
+            color: var(--Basic-Black, #000);
+            text-align: center;
+            font-family: $font-family;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+.modal-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .form-select {
+        color: var(--Gray-03, #a1a1a1);
+        font-family: $font-family;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .form-check-inline {
+        padding: 6px;
+    }
+    label {
+        display: flex;
+        justify-content: flex-start;
+    }
+    //hapus
+    .konfirmasihapus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        display: flex;
+        padding: 24px 0px;
+        svg {
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: var(--Primary, #3d3d3d);
+            font-family: $font-family;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    // konfirmasinota{
+    .konfirmasinota {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        white-space: nowrap;
+
+        .container {
+            width: 100%;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            background: #f6f6f6;
+            gap: 5px;
+        }
+
+        .imgbawah {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-self: stretch;
+            width: 100%;
+
+            .space {
+                display: flex;
+                height: 48px;
+                padding: 16px 24px;
+                justify-content: space-between;
+                align-items: center;
+                align-self: stretch;
+                border-bottom: 1px solid #d8d8d8;
+                background: #fff;
+                width: 100%;
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+                h1 {
+                    color: var(--Primary, #414141);
+                    font-family: $font-family;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    text-transform: capitalize;
+                }
+            }
+            img {
+                display: flex;
+                width: 100%;
+                border-bottom-right-radius: 12px;
+                border-bottom-left-radius: 12px;
+            }
+        }
+        // bagiansuratjalan pembelian
+        .grid {
+            h1 {
+                color: var(--Secondary, #8c8c8c);
+                font-feature-settings: "liga" off, "clig" off;
+                font-family: $font-family;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            h2 {
+                color: var(--Primary, #393939);
+                text-align: center;
+                font-family: $font-family;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-align: start;
+            }
+        }
+    }
+
+    // print detail penjualan
+    .konfirmasiimg {
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+        img {
+            width: 100%;
+            height: 493.062px;
+            margin: 0 auto;
+        }
+    }
+    .berbedaimg {
+        img {
+            height: 311.491px;
+        }
+    }
+
+    // Setelah Scann Modal
+    .next-Scan {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        .form-select {
+            padding: 12px 15px;
+        }
+        .col-sm-3 {
+            button {
+                padding: 8px 15px;
+            }
+        }
+        .readonly-input {
+            border-radius: 6px;
+            background: #dbdbdb;
+        }
+
+        .gridtext {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: space-between;
+
+            .form-check-inline {
+                margin: 0;
+            }
+        }
+        .form-check-input:checked {
+            background-color: #007bff; /* Warna background saat dicentang */
+        }
+
+        /* Untuk radio button */
+        .form-check-input:checked[type="radio"] {
+            background-color: rgb(74, 74, 74); /* Warna latar radio */
+            border-color: #fefeff; /* Warna border */
+            --bs-form-check-bg-image: var(
+                --bs-gradient
+            ); /* Aktifkan efek putih di tengah */
+        }
+        .input-group {
+            .form-control {
+                border-right: none;
+            }
+            .input-group-text {
+                background-color: #fff;
+                border-left: none;
+            }
+        }
+    }
+    .textkuu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        h1 {
+            color: var(--Primary, #393939);
+            font-family: $font-family;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .form-check-input:checked {
+            background-color: #575757;
+        }
+    }
+
+    .next {
+        width: 100%;
+
+        .custom-file-upload {
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: start;
+            cursor: pointer;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .custom-file-upload input {
+            position: absolute;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        .upload-icon {
+            background: #222;
+            color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .form-label {
+            color: var(--Primary, #3d3d3d);
+            font-family: $font-family;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    //radio-container{
+    .radio-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .radio-card {
+            display: flex;
+            flex-direction: column;
+            width: 350px; /* Sesuaikan ukuran */
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            background-color: #fff;
+        }
+
+        .radio-card img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .radio-card input {
+            display: none;
+        }
+
+        .radio-card .custom-radio {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #aaa;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .radio-card input:checked + .custom-radio::after {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background-color: #575757;
+            border-radius: 50%;
+        }
+
+        .radio-card input:checked ~ a {
+            font-weight: bold;
+            text-align: center;
+            color: #575757;
+            text-align: center;
+            font-family: $font-family;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-decoration: none;
+        }
+        a {
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            .radio-label {
+                cursor: pointer;
+                font-size: 16px;
+                color: #575757;
+                text-decoration: none;
+                text-align: center;
+            }
+        }
+
+        .radio-input {
+            display: none; /* Sembunyikan default radio */
+        }
+
+        .radio-svg {
+            width: 24px;
+            height: 24px;
+            fill: none;
+            stroke: #aaa;
+            stroke-width: 2;
+            transition: stroke 0.2s ease-in-out;
+        }
+
+        .radio-input:checked + .radio-svg {
+            stroke: #007bff; /* Warna biru saat dipilih */
+            fill: #007bff;
+        }
+    }
+    a {
+        width: 100%;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        padding: 6px;
+        border-radius: 8px;
+        background: #e0e0e0;
+
+        .btn {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+            padding: 12px 24px;
+            background: #e0e0e0;
+            border: none;
+
+            &.active {
+                border-radius: 4px;
+                background: #fff;
+            }
+        }
+        button {
+            color: var(--Primary, #3d3d3d);
+            font-family: $font-family;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .sectionprofil-3 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+
+        .grid {
+            display: flex;
+            padding: 12px;
+            justify-content: space-between;
+            align-items: center;
+            align-self: stretch;
+            border-radius: 8px;
+            background: #e0e0e0;
+            gap: 20px;
+            width: 100%;
+
+            button {
+                width: 100%;
+                display: flex;
+                padding: 12px 24px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 8px;
+                color: var(--Primary, #3d3d3d);
+                font-family: $font-family;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+                border: none;
+                background-color: #e0e0e0;
+                cursor: pointer;
+
+                &.active {
+                    border-radius: 4px;
+                    background: #fff;
+                    color: var(--Primary, #3d3d3d);
+                    font-family: $font-family;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+                &:hover {
+                    background: #fff;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+
+    .containerimg {
+        display: flex;
+        padding: 24px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        flex: 1;
+    }
+
+    .logoutt {
+        width: 100%;
+        padding: 10px 30px;
+        h1 {
+            color: var(--Gray-04, #8a8383);
+            text-align: center;
+            font-family: $font-family;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+.modal-footer {
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+
+    button {
+        height: 45px;
+        padding: 10px;
+        gap: 10px;
+        flex: 1 0 0;
+        display: flex;
+        color: var(--Basic-White, #fff);
+        font-family: $font-family;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+
+        &:hover {
+            background-color: transparent;
+            border-color: transparent;
+            &:focus {
+                background-color: transparent;
+                border-color: transparent;
+            }
+        }
+    }
+    .berbeda {
+        background-color: #dadada;
+        border: none;
+        color: var(--Primary, #414141) !important;
+        font-family: $font-family !important;
+        font-size: 14px !important;
+        font-style: normal !important;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        &:hover {
+            color: #dbdbdb !important;
+        }
+    }
+    :hover .svgdownload {
+        path {
+            fill: #ffffff;
+        }
+    }
+    .bagianscan {
+        border-radius: 8px;
+        background-color: #d8d8d8;
+        border: none;
+        color: #3b3b3b;
+        &:hover {
+            background: #d8d8d8;
+        }
+    }
+
+    .buttondark {
+        padding: 0 25px;
+        background: #3d3d3d; //
+        color: #fff; // Warna teks tetap
+        border: none; // Pastikan tidak ada border berubah
+
+        &:hover,
+        &:focus,
+        &:active {
+            background: #3d3d3d; // Warna tetap saat hover
+            color: #fff; // Warna teks tetap
+            box-shadow: none; // Hilangkan efek bayangan jika ada
+            outline: none; // Hilangkan outline fokus
+        }
+    }
+
+    .btn.btn-outline-dark {
+        color: var(--Secondary, #8c8c8c);
+        font-family: $font-family;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        &:hover {
+            color: var(--Basic-White, #fff);
+            background-color: #3d3d3d;
+        }
+    }
+    a {
+        height: 45px;
+        padding: 20px;
+        gap: 10px;
+        flex: 1 0 0;
+        display: flex;
+        background-color: #3d3d3d;
+        color: var(--Basic-White, #fff);
+        font-family: $font-family;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        border-color: none;
+        text-decoration: none;
+        button {
+            border: none;
+        }
+    }
+}
+
+.btn-outline-dark {
+    border-radius: 8px;
+    border: 1px solid #000;
+}
+.btn-dark {
+    border-radius: 8px;
+    background-color: #3d3d3d;
+}

@@ -1,0 +1,63 @@
+@use "auth/login";
+
+// components
+@use "components/sidebar";
+@use "components/modal";
+@use "components/header";
+
+// dashboard
+@use "layouts/dashboard/dashboard";
+
+// sale
+@use "layouts/sale/sale";
+@use "layouts/sale/edit";
+@use "layouts/sale/konfirmasi";
+@use "layouts/sale/detail-pending";
+@use "layouts/sale/detail-disiapkan";
+@use "layouts/sale/detail-produk-konversi";
+@use "layouts/sale/detail-produk-custom";
+
+// Purchase
+@use "layouts/purchase/purchase";
+@use "layouts/purchase/edit-purchase";
+@use "layouts/purchase/detail-purchase-process";
+@use "layouts/purchase/detail-purchase-end";
+@use "layouts/purchase/purchase-konfirmasipenerimaan.scss";
+@use "layouts/purchase/detail-purchase-receipt";
+
+// product
+@use "layouts/product/product";
+@use "layouts/product/add-product";
+@use "layouts/product/add-product-as";
+@use "layouts/product/detail-baut1";
+
+// Data Master
+@use "layouts/data/data-tipe";
+@use "layouts/data/detail-tipe";
+
+// Rekap Penjualan
+@use "layouts/rekappenjualan/rekap-penjualan";
+@use "layouts/rekappenjualan/detail-rekappenjualan";
+
+// Customer
+@use "layouts/customer/customer";
+
+// Supplier
+@use "layouts/supplier/supplier";
+
+@import url("https://fonts.cdnfonts.com/css/outfit");
+
+@import url("https://fonts.cdnfonts.com/css/roboto");
+
+$font-family: "Roboto", sans-serif;
+
+html,
+body {
+    margin: 0;
+    background: #f1f1f1;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
