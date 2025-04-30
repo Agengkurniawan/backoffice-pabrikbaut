@@ -14,7 +14,7 @@
                         </div>
                         <div class="col-6 beda">
                             <div class="col-3">
-                                <img src="{{ asset('build/assets/images/image2.png') }}" alt="">
+                                <img src="{{ asset('assets/img/image2.png') }}" alt="">
                             </div>
                             <div class="col-5">
                                 <h1>SKU</h1>

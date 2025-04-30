@@ -160,13 +160,13 @@
                     <label class="radio-card">
                         <input type="radio" name="item" value="baut" checked>
                         <div class="custom-radio"></div>
-                        <img src="{{asset('build/assets/images/baut.png')}}" alt="Baut">
+                        <img src="{{asset('assets/img/baut.png')}}" alt="Baut">
                         <p class="radio-label">Baut</p>
                     </label>
                     <label class="radio-card">
                         <input type="radio" name="item" value="as">
                         <div class="custom-radio"></div>
-                        <img src="{{asset('build/assets/images/wesi.png')}}" alt="As">
+                        <img src="{{asset('assets/img/wesi.png')}}" alt="As">
                         <p class="radio-label">As</p>
                     </label>
                 </div>
@@ -305,7 +305,7 @@
             <hr class="solid">
             <div class="modal-body">
                 <div class="konfirmasiimg">
-                    <img src="{{ asset('build/assets/images/printout.png') }}" alt="">
+                    <img src="{{ asset('assets/img/printout.png') }}" alt="">
                 </div>
             </div>
             <div class="modal-footer border-0">
@@ -355,7 +355,7 @@
                                 <path d="M14.5251 7.34158C15.3167 7.34991 16.4167 7.34991 17.3584 7.34991C17.8334 7.34991 18.0834 6.79158 17.7501 6.45825C16.5501 5.24991 14.4001 3.07491 13.1667 1.84158C12.8251 1.49991 12.2334 1.73325 12.2334 2.20825V5.11658C12.2334 6.33325 13.2667 7.34158 14.5251 7.34158Z" fill="#414141" />
                             </svg>
                         </div>
-                        <img src="{{ asset('build/assets/images/Nota1.png') }}" alt="">
+                        <img src="{{ asset('assets/img/Nota1.png') }}" alt="">
                     </div>
                     <div class="imgbawah">
                         <div class="space">
@@ -365,7 +365,7 @@
                                 <path d="M14.5251 7.34158C15.3167 7.34991 16.4167 7.34991 17.3584 7.34991C17.8334 7.34991 18.0834 6.79158 17.7501 6.45825C16.5501 5.24991 14.4001 3.07491 13.1667 1.84158C12.8251 1.49991 12.2334 1.73325 12.2334 2.20825V5.11658C12.2334 6.33325 13.2667 7.34158 14.5251 7.34158Z" fill="#414141" />
                             </svg>
                         </div>
-                        <img src="{{ asset('build/assets/images/Nota1.png') }}" alt="">
+                        <img src="{{ asset('assets/img/Nota1.png') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -414,7 +414,7 @@
                         <input type="text" class="form-control" placeholder="Nama">
                     </div>
                     <div class="konfirmasiimg berbedaimg">
-                        <img src="{{ asset('build/assets/images/suratjalan.png') }}" alt="">
+                        <img src="{{ asset('assets/img/suratjalan.png') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -611,14 +611,14 @@
                     <label class="radio-card">
                         <input type="radio" name="item" value="baut" checked>
                         <div class="custom-radio"></div>
-                        <a href="" data-bs-toggle="modal" data-bs-target="#setelahmemilihpembelian" data-bs-dismiss="modal"><img src="{{asset('build/assets/images/baut.png')}}" alt="Baut">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#setelahmemilihpembelian" data-bs-dismiss="modal"><img src="{{asset('assets/img/baut.png')}}" alt="Baut">
                             <p class="radio-label">Baut</p>
                         </a>
                     </label>
                     <label class="radio-card">
                         <input type="radio" name="item" value="as">
                         <div class="custom-radio"></div>
-                        <a href="" data-bs-toggle="modal" data-bs-target="#bagianas" data-bs-dismiss="modal"><img src="{{asset('build/assets/images/wesi.png')}}" alt="As">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#bagianas" data-bs-dismiss="modal"><img src="{{asset('assets/img/wesi.png')}}" alt="As">
                             <p class="radio-label">As</p>
                         </a>
                     </label>
@@ -805,7 +805,7 @@
                                 <path d="M14.5251 7.34158C15.3167 7.34991 16.4167 7.34991 17.3584 7.34991C17.8334 7.34991 18.0834 6.79158 17.7501 6.45825C16.5501 5.24991 14.4001 3.07491 13.1667 1.84158C12.8251 1.49991 12.2334 1.73325 12.2334 2.20825V5.11658C12.2334 6.33325 13.2667 7.34158 14.5251 7.34158Z" fill="#414141" />
                             </svg>
                         </div>
-                        <img src="{{ asset('build/assets/images/fotosuratjalanpng.png') }}" alt="">
+                        <img src="{{ asset('assets/img/fotosuratjalanpng.png') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -921,7 +921,7 @@
 
                 <!-- Content From Mobile -->
                 <div id="contentFromMobile" class="d-none text-center">
-                    <img src={{ asset('build/assets/images/qr.png') }} alt="QR Code" class="img-fluid">
+                    <img src={{ asset('assets/img/qr.png') }} alt="QR Code" class="img-fluid">
                 </div>
             </div>
             <div class="modal-footer border-0 setelahmemilih">
@@ -951,7 +951,7 @@
                                 <path d="M14.5251 7.34158C15.3167 7.34991 16.4167 7.34991 17.3584 7.34991C17.8334 7.34991 18.0834 6.79158 17.7501 6.45825C16.5501 5.24991 14.4001 3.07491 13.1667 1.84158C12.8251 1.49991 12.2334 1.73325 12.2334 2.20825V5.11658C12.2334 6.33325 13.2667 7.34158 14.5251 7.34158Z" fill="#414141" />
                             </svg>
                         </div>
-                        <img src="{{ asset('build/assets/images/surattandaterima.png') }}" alt="">
+                        <img src="{{ asset('assets/img/surattandaterima.png') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -986,7 +986,7 @@
                                 <path d="M14.5251 7.34158C15.3167 7.34991 16.4167 7.34991 17.3584 7.34991C17.8334 7.34991 18.0834 6.79158 17.7501 6.45825C16.5501 5.24991 14.4001 3.07491 13.1667 1.84158C12.8251 1.49991 12.2334 1.73325 12.2334 2.20825V5.11658C12.2334 6.33325 13.2667 7.34158 14.5251 7.34158Z" fill="#414141" />
                             </svg>
                         </div>
-                        <img src="{{ asset('build/assets/images/notadokumen.png') }}" alt="">
+                        <img src="{{ asset('assets/img/notadokumen.png') }}" alt="">
                     </div>
                     <div class="imgbawah">
                         <div class="space">
@@ -996,7 +996,7 @@
                                 <path d="M14.5251 7.34158C15.3167 7.34991 16.4167 7.34991 17.3584 7.34991C17.8334 7.34991 18.0834 6.79158 17.7501 6.45825C16.5501 5.24991 14.4001 3.07491 13.1667 1.84158C12.8251 1.49991 12.2334 1.73325 12.2334 2.20825V5.11658C12.2334 6.33325 13.2667 7.34158 14.5251 7.34158Z" fill="#414141" />
                             </svg>
                         </div>
-                        <img src="{{ asset('build/assets/images/surattandaPO.png') }}" alt="">
+                        <img src="{{ asset('assets/img/surattandaPO.png') }}" alt="">
                     </div>
                     <div class="imgbawah">
                         <div class="space">
@@ -1006,7 +1006,7 @@
                                 <path d="M14.5251 7.34158C15.3167 7.34991 16.4167 7.34991 17.3584 7.34991C17.8334 7.34991 18.0834 6.79158 17.7501 6.45825C16.5501 5.24991 14.4001 3.07491 13.1667 1.84158C12.8251 1.49991 12.2334 1.73325 12.2334 2.20825V5.11658C12.2334 6.33325 13.2667 7.34158 14.5251 7.34158Z" fill="#414141" />
                             </svg>
                         </div>
-                        <img src="{{ asset('build/assets/images/fakturpajak.png') }}" alt="">
+                        <img src="{{ asset('assets/img/fakturpajak.png') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -1051,13 +1051,13 @@
                     <label class="radio-card">
                         <input type="radio" name="item" value="baut" checked>
                         <div class="custom-radio"></div>
-                        <img src="{{asset('build/assets/images/baut.png')}}" alt="Baut">
+                        <img src="{{asset('assets/img/baut.png')}}" alt="Baut">
                         <p class="radio-label">Baut</p>
                     </label>
                     <label class="radio-card">
                         <input type="radio" name="item" value="as">
                         <div class="custom-radio"></div>
-                        <img src="{{asset('build/assets/images/wesi.png')}}" alt="As">
+                        <img src="{{asset('assets/img/wesi.png')}}" alt="As">
                         <p class="radio-label">As</p>
                     </label>
                 </div>

@@ -149,7 +149,7 @@
     </h1>
     <div class="profil">
         <div class="profilview">
-            <img src="{{ asset('build/assets/images/AvatarImage.png') }}" alt="">
+            <img src="{{ asset('assets/img/AvatarImage.png') }}" alt="">
         </div>
         <div class="profilname">
             <h1>Albert Joe</h1>

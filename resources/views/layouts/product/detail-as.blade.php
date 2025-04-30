@@ -9,7 +9,7 @@
                 <div class="gridku">
                     <div class="containergrid">
                         <div class="shape">
-                            <img src="{{ asset('build/assets/images/as.png') }}" alt="">
+                            <img src="{{ asset('assets/img/as.png') }}" alt="">
                         </div>
                         <div class="for">
                             <div class="container">
